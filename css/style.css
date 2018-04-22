@@ -2,11 +2,16 @@
 	box-sizing: border-box;
 }
 
+html {
+	overflow: auto;
+}
+
 body {
 	font-size: 0;
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
+	min-width: 1500px;
+	overflow-x: hidden; /*Hide background size*/
 }
 
 .container {
@@ -33,6 +38,8 @@ header {
 	background-color: #2ecc71;
 	padding-top: 42px;
 	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /*Fruit*/
@@ -176,6 +183,8 @@ header {
 .features {
 	font-size: 16px;
 	padding-top: 216px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .features__img {
@@ -344,6 +353,8 @@ input:focus {
 	padding-top: 215px;
 	text-align: center;
 	background: #f9f9f9 url(../img/way/ffff4.png) center no-repeat;
+	padding-left: 50px;
+	padding-right: 50px;
 
 }
 
@@ -403,6 +414,8 @@ input:focus {
 
 .blog {
 	padding-top: 160px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .blog h2 {
@@ -577,6 +590,9 @@ footer {
 	text-align: center;
 	padding-top: 113px;
 	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
 }
 
 footer h2 {
